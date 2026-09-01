@@ -1,0 +1,23 @@
+.logo{
+    height: 40px;
+    width: auto;
+    border-radius: 50px;
+}
+
+.teste{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    justify-items: center
+}
+.vídeo{
+    display: flex;
+    flex-direction: column;
+}
+
+.título-vídeo{
+    display: flex;
+    flex-direction: row;
+}
