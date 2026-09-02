@@ -1,23 +1,67 @@
-.logo{
-    height: 40px;
-    width: auto;
+.logo {
+  height: 50px;
+  width: auto;
+  border-radius: 50px;
+}
+.logo1 {
+  height: 40px;
+  width: auto;
+  border-radius: 50px;
+}
+
+.teste {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+}
+.vídeo {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.titulo-video {
+  font-size: 30px;
+  font-weight: 600;
+}
+.descricao-user {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 500px;
+  p {
+        margin: 0 !important;
+  }
+}
+.img.k{
     border-radius: 50px;
 }
+.descricao-nome{
 
-.teste{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
-    justify-items: center
 }
-.vídeo{
-    display: flex;
-    flex-direction: column;
+.descricao-inscrito{
+
+}
+.caixa-user {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  
+}
+.botao-insc{
+    background-color: aliceblue !important;
+    color: black !important;
 }
 
-.título-vídeo{
-    display: flex;
-    flex-direction: row;
+.body{
+    padding-bottom: 20px;
+    background-color: var(dark) !important;
+}
+
+.grid{
+    padding-left: 60px;
+    padding-right: 60px;
 }
