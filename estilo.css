@@ -36,14 +36,20 @@
         margin: 0 !important;
   }
 }
-.img.k{
+.img-k{
     border-radius: 50px;
 }
 .descricao-nome{
-
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 500px;
 }
 .descricao-inscrito{
-
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 500px;
 }
 .caixa-user {
   display: flex;
